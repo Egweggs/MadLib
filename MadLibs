@@ -1,1 +1,229 @@
+package madLibs;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+//template "meat" 
+public class MadLibTemplates {
+	
+	//PIRATE TALK
+	private static String[] pirateTalkStoryPieces = {
+			"Ye can always pretend to be a bloodthirsty ",
+			", threatening everyone by waving yer ",
+			" sword in the air, but until ye learn to ",
+			" like a pirate, ye'll never be ",
+			" accepted as an authentic ",
+			". So here's what ye do: Cleverly work into yer daily conversations ",
+			" pirate phrases such as ""Ahoy there, ",
+			","" ""Avast, ye ",
+			","" and ""Shiver me ",
+			"."" Remember do drop all of yer g's when you say such words as Sailin', Spittin', and fightin'. This will give ye a/an ",
+			" start to being recognized as a swashbucklin' ",
+			". Once ye have the lingo down pat, it helps to wear a three-cornered ",
+			" on yer head, stash a/an ",
+			" in yer pants, and keep a/an ",
+			" perched atop yer "
+	};
+	private static String[] pirateTalkPrompt = {
+			"noun",
+			"adjective",
+			"verb",
+			"adverb",
+			"noun",
+			"adjective",
+			"plural noun",
+			"plural noun",
+			"plural noun",
+			"part of the body",
+			"noun",
+			"noun",
+			"noun",
+			"noun",
+			"part of the body"
+	};
+	public static Template beachRomance = new Template(new ArrayList<String>(Arrays.asList(pirateTalkStoryPieces)), 
+												new ArrayList<String>(Arrays.asList(pirateTalkPrompt)));
+	
+	
+	// DINING WARS
+	public static String[] diningWarsStoryPieces = {
+			"Our Dining,"
+			" used to be a war ,"
+			". I thought the battle about correct table ,"
+			" would never end. It was us versus Mom, and it seemed like a fight that would last to the ,"
+			" end. But tonight Dad declared a/an ,"
+			" Truce, and we negotiated a/an ,"
+			" peace ,"
+			". Mom promised to no longer get ,"
+			" upset and shoot us dirty ,"
+			" and make ,"
+			" remarks when we do ,"
+			" things she doesn't like. We inturn agreed to: "
+			+ "    1) Use napkins to wipe our ,"
+			" and not our ,"
+			"    2) Keep our ,"
+			" off the table. "
+			+ "    3) Not use our ,"
+			" to pick up ,"
+			" from our plates--except for sandwiches or pieces of ,"
+			"    4) Never talk with food in our "
+	};
+	public static String[] diningWarsPrompt = {
+			"Noun,"
+			"Noun,"
+			"Plural Noun,"
+			"Adjective,"
+			"Adjective,"
+			"Adjective,"
+			"Noun,"
+			"Adverb,"
+			"Plural Noun,"
+			"Adjective,"
+			"Adjective,"
+			"Part of the Body(plural),"
+			"Plural Noun,"
+			"Part of the Body(plural),"
+			"Part of the Body(plural),"
+			"Plural Noun,"
+			"Noun,"
+			"Part of the Body(plural),"
+	};
+	public static Template diningWars = new Template(new ArrayList<String>(Arrays.asList(diningWarsStoryPieces)), 
+			new ArrayList<String>(Arrays.asList(diningWarsPrompt)));
+
+
+	//BEHIND THE SCENES
+	public static String[] behindTheScenesStoryPieces = {
+			"Putting on a newscast might look easy, but it takes a lot of ,"
+			" work. Go behind the scenes, and you'll see dozens of ,"
+			" workers ,"
+			" in every direction! Reporters run back and forth between the studio and locations all around (the) ,"
+			" to cover ,"
+			" stories and interview ,"
+			". They are joinded by videographers who operate handheld ,"
+			" to capture all the action. The anchors are the people who ,"
+			" behind the news desk and read the stories during the newscast. They have to look ,"
+			" on air, so the can often be found getting makeup applied to their ,"
+			". The director tells everyone where and when to ,"
+			". It's easy to spot the Director because he wears a headset on his ,"
+			" and yells thins like ""Camera Two!"" and ""Cut to commercial"" and "","
+			"!"" A newscast is live television, so if you make a/an ,"
+			" mistake, beware! Everyone will be watching at home on their ,"
+	};
+	public static String[] behindTheScenesPrompt = {
+			"Adjective,"
+			"Adjective,"
+			"Word ending in ""ing"","
+			"A place,"
+			"Adjective,"
+			"Plural Noun,"
+			"Plural Noun,"
+			"Verb,"
+			"Adjective,"
+			"Part of the body(plural),"
+			"Verb,"
+			"Part of the body,"
+			"Silly word,"
+			"Adjective,"
+			"Plural Noun"
+	};
+	public static Template beachRomance = new Template(new ArrayList<String>(Arrays.asList(behindTheScenesStoryPieces)), 
+			new ArrayList<String>(Arrays.asList(behindTheScenesPrompt)));
+		
+	
+	//LOCAL DJ
+	public static String[] localDJStoryPieces = {
+			"Growing up on an electric diet of ",
+			" and ",
+			"provided by their parent's record collection ",
+			", is hard to pin down musically. Inspired by their family's love of music, ",
+			" took up the ",
+			" at the age of ",
+			". It was only a few years later that ",
+			" discovered late night techno parties and the ",
+			" rhythms of ",
+			". ",
+			" promptly sold their ",
+			" and purchased a/an ",
+			" and began performing at local house parties, basements, and abandoned warehouses."
+			+ " Now a regular fixture of ",
+			"'s nightlife/club scene, ",
+			" has shared the stage with such well known international DJs such as ",
+			", ",
+			", and ",
+			" and has their sights on producing tracks with their first release on ",
+			"-based ",
+			" Records. "
+			" looks to be a busy year for ",
+			" as they begin their first residency at local hot spot ",
+			" and continues to work on making more music. Look for ",
+			" at your local "
+	);
+	public static String[] localDJPrompt = {
+			"music genre",
+			"music genre",
+			"DJ name",
+			"instrument",
+			"age",
+			"DJ name",
+			"adjective",
+			"electronic music genre",
+			"DJ name",
+			"instrument",
+			"instrument",
+			"city",
+			"DJ name",
+			"techno DJ",
+			"house DJ",
+			"tech-house DJ",
+			"city",
+			"adjective + noun",
+			"current year",
+			"DJ name",
+			"club name",
+			"DJ name"
+	};
+	public static Template beachRomance = new Template(new ArrayList<String>(Arrays.asList(localDJStoryPieces)), 
+			new ArrayList<String>(Arrays.asList(localDJPrompt)));
+	
+	
+	//ALL ABOUT ME
+	public static String[] allAboutMeStoryPieces = {
+			"In my opinion, winter is the most ",
+			" time of the year. Especially in Denver where the air is ",
+			" and ",
+			". Since the climate is ",
+			" and it's dry as a/an ",
+			", nothing sounds better than a/an ",
+			" yoga class! Currently, I'm working on perfecting ",
+			" ",
+			", but my all time favorite yoga pose is ",
+			" ",
+			". Yoga is my favorite activity, but I also love spending time cooking ",
+			" and I love to dring hot ",
+			". Yum!! I also enjoy ",
+			" in front of the fire, and reading ",
+			" on a blustery, ",
+			" afternoon. Life in Denver is "
+	};
+	public static String[] allAboutMePrompt = {
+			"adjective",
+			"adjective",
+			"adjective",
+			"adjective",
+			"noun",
+			"adjective",
+			"verb ending with ing",
+			"animal",
+			"verb ending in ing",
+			"animal",
+			"edible noun",
+			"liquid",
+			"verb ending in ing",
+			"made up Romance Novel"
+			"adjective",
+			"adjective"
+	};
+	public static Template beachRomance = new Template(new ArrayList<String>(Arrays.asList(allAboutMeStoryPieces)), 
+			new ArrayList<String>(Arrays.asList(allAboutMePrompt)));
+	
+}
